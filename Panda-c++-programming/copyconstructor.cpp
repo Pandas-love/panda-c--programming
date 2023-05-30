@@ -4,31 +4,39 @@ using namespace std;
 class student
 {
     public:
-    string name;
-    int age;
-    int bmi;
-    void getdata()
+    int number;
+    char section;
+    float height;
+    int payment;
+    student();
+    void getinfo(student &copy)
     {
-        getline(cin,name);
-        cin>>age;
-        cin>>bmi;
-        cin.ignore();//its help to stop getline taking invaild input
-        //i put it in the last because if it is in the first it will ignore first word of the string.
-        //If i put it in the last then after taking input it will ignore others invaild inputs and become stop.
+        // copy.height=1.68;
+        // copy.number=1920476165;
+        // copy.section='a';
+        // copy.payment=5560;
+        copy.height=height;
+        copy.number=number;
+        copy.section=section;
+        copy.payment=payment;
     }
-    void displaydata();
+    void displayinfo(student &copy)
+    {
+        cout<<"Body Height: "<<copy.height<<endl;
+        cout<<"Number: "<<copy.number<<endl;
+        cout<<"Section: "<<copy.section<<endl;
+        cout<<"Payment: "<<copy.payment<<endl;
+    }
 };
-void student::displaydata()
+student::student()
 {
-    cout<<name<<endl;
-    cout<<age<<endl;
-    cout<<bmi<<endl;
+    cin>>number>>section>>height>>payment;
 }
 int main()
 {
-    student tomal;
-    student maisha;
-    tomal.getdata();maisha.getdata();
-    tomal.displaydata();maisha.displaydata();
+    student tomal;student maisha;
+    tomal.getinfo(maisha);
+    tomal.displayinfo(maisha);
+    maisha.displayinfo(tomal);
     return 0;
 }
