@@ -16,7 +16,7 @@ class myclass
 int main()
 {
     
-    myclass st;
+    myclass st; 
     st.get=st.summation(st,st);
     cout<<st.get<<endl;
     return 0;

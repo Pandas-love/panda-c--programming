@@ -20,9 +20,9 @@ class student
 };
 void student::displaydata()
 {
-    cout<<name<<endl;
-    cout<<age<<endl;
-    cout<<bmi<<endl;
+    cout<<"Name: "<<name<<endl;
+    cout<<name<<"'s Age: "<<age<<endl;
+    cout<<name<<"'s BMI: "<<bmi<<endl;
 }
 int main()
 {
