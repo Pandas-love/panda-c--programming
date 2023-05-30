@@ -11,10 +11,6 @@ class student
     student();
     void getinfo(student &copy)
     {
-        // copy.height=1.68;
-        // copy.number=1920476165;
-        // copy.section='a';
-        // copy.payment=5560;
         copy.height=height;
         copy.number=number;
         copy.section=section;
