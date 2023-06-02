@@ -26,7 +26,7 @@ int main()
 {
     myclass tomal;
     // tomal.t=tomal.s+tomal.t;
-    tomal.s.append(tomal.t);
+    //tomal.s.append(tomal.t);
     // tomal.s.push_back('t');
     // cout<<tomal.s<<endl;
     // tomal.s.pop_back();tomal.s.pop_back();
