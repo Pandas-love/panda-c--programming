@@ -1,1 +1,1 @@
-panda1(mai);
+cin>>age>>marks1>>marks2;
