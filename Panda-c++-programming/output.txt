@@ -1,1 +1,3 @@
-Value of X: 3 and Value of Y: 1
+maisha 19 100
+tomal 23 96
+panda 20 90

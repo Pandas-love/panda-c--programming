@@ -21,7 +21,7 @@ int getx(int a11,int a12,int a21,int a22)
 }
 int gety(int a11,int a12,int a21,int a22)
 {
-    int temp=-(a12*a21)+(a11*a22);
+    int temp= -(a12*a21)+(a11*a22);
     return temp;
 }
 
