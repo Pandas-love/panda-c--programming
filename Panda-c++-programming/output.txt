@@ -1,6 +1,1 @@
-a: 2
-b: 2
-d: 7
-i: 1
-j: 1
-k: 1
+aaaa iiii bb tt ss nn mm k e h r 

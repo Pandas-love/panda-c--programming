@@ -1,8 +1,1 @@
-        if(i!=n)
-        {
-           cin>>a[i]; 
-        }
-        else
-        {
-            a[i]=0;
-        }
+mai[i].word
